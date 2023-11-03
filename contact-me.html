@@ -30,32 +30,34 @@
 
           <form action="thank-you.html">
             <div>
-              <p>Name:</p>
+              <label for="yourName">Name:</label>
               <input
                 type="text"
                 name="yourName"
+                id="yourName"
                 placeholder="Please Add Your Name"
               />
             </div>
             <div>
-              <p>Email:</p>
-              <input type="email" name="email" placeholder="Email Address" />
+              <link for="email">Email:</link>
+              <input type="email" name="email" id="email" placeholder="Email Address" />
             </div>
             <div>
-              <p>Telephone:</p>
-              <input type="tel" name="tel" placeholder="Telephone Number" />
+              <link for="tel">Telephone:</link>
+              <input type="tel" name="tel" id="tel" placeholder="Telephone Number" />
             </div>
             <div>
-              <p>Message:</p>
+              <label for="message">Message:</label>
               <textarea
+                type="message"
                 name="message"
                 id="message"
                 placeholder="Your Message"
               ></textarea>
             </div>
             <div>
-              <p>Are you interested in?</p>
-              <select name="interest" id="interest">
+              <label for="interest">Are you interested in?</label>
+              <select name="interest" id="interest" placeholder="Are you interested" >
                 <option value="frontend">Frontend Web Development</option>
                 <option value="backend">Backend Web Development</option>
                 <option value="appDev">Application Development</option>
