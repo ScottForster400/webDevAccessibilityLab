@@ -41,7 +41,7 @@ main {
   display: flex;
 }
 .section {
-  /*flex: 1 1 auto;*/
+  flex: 1 1 auto;
   padding: 0 10px 10px 0;
 }
 .resize-img {
